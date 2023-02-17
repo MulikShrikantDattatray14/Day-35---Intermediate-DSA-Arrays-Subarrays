@@ -1,0 +1,15 @@
+Q1. Total Number of Subarrays
+
+Given an array of size 21, find the total number of subarrays of the array.
+
+Choose the correct answer from below:
+A) 254
+B) 231
+C) 369
+D) 441
+
+Ans: B) 231.
+
+Explaination : Total number of subarrays of an array of size N is
+N*(N + 1)/2
+So, 21 * (21 + 1) / 2 = 21 * 11 = 231

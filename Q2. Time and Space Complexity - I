@@ -1,0 +1,35 @@
+Q2. Time and Space Complexity - I
+
+What is the time and space complexity for printing the sum of each subarray?
+
+void printSums(int ar[]){
+
+int n = ar.length;
+
+for(int i = 0 ; i < n ; i++){
+
+int sum = 0;
+
+for(int j = i ; j < n ; j++){
+
+sum = sum + ar[j];
+
+print(sum)
+
+}
+
+}
+
+}
+
+
+Choose the correct answer from below:
+A) TC = O(N) , SC = O(1)
+B) TC = O(N^2) , SC = O(1)
+C) TC = O(N) , SC = O(N)
+D) TC = O(N^2) , SC = O(N)
+
+Ans: B) TC = O(N^2) , SC = O(1)
+
+Explaination : The time complexity for the given code is O(N^2)
+while the space complexity is O(1).
